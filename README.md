@@ -36,7 +36,7 @@ K-Means was used to identify 4 distinct failure segments that informed feature e
 
 The data was split into training and testing sets using a stratified sampling method to preserve the class distribution in the target variable.
 
-Given the class imbalance (3% failure), Accuracy was deemed insufficient. The evaluation metrics used were majorly precision and recall, however recall was used for model selection and tuning. Maximizing recall was essential to minimize False Negatives (i.e., failing to identify a machine that will fail), which directly aligns with the business objective of successful retention campaigns.
+Given the class imbalance (3% failure), Accuracy was deemed insufficient. The evaluation metrics used were majorly precision and recall, however recall was used for model selection and tuning. Maximizing recall was essential to minimize False Negatives (i.e., failing to detect a machine that is likely to fail). Reducing these missed failures directly supports the business objective of preventing costly unplanned breakdowns and maintaining high operational reliability.
 
 ### Model Training and Selection
 
